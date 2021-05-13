@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="mySidenav" class="sidenav h-screen">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="">
+
+            <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Dashboard</p></h1>
+            <h1 class="flex items-center hoverie pl-4 mb-4"style="padding-top:9px; padding-bottom:8px; background:#FEF2E8;border-radius:4px;font-size:14px; color:#262626;"><img class="pr-4 " src="images/ic-overview.png">Products</p></h1>
+            <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Wallets</p></h1>
+            <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-analytics.png">My Sales</p></h1>
+            <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Affiliate Sales</p></h1>
+            <h1 class="flex items-center hoverie colorfont pl-4"style="margin-bottom:169px; padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-settings.png">Settings</p></h1>
+
+            <h1 class="flex items-center cursor-pointer colorfont pl-4 mb-4"style=""><img class="pr-4" src="images/ic-settings.png">Help Center</p></h1>
+            <h1 class="flex items-center cursor-pointer colorfont pl-4"style="margin-bottom:83.44px; "><img class="pr-4" src="images/ic-logout.png">Log out</p></h1>
+
+           <p class="text-xs pl-4" style="color:#9599AC">Powered by:</p>
+           <img class="pl-4" style="margin-bottom: 150px;" src="images/dumo-logo.png">
+            
+
+        </div>
+    </div>
+
+    <header class="w-full px-8 py-4">
+        <div class="upholder flex items-center">
+
+            <div class="">
+                <div class="upheader pr-5 flex justify-between items-center">
+                    <div class="flex gap-1">
+                        <img src="images/school-icon-placeholder.png">
+                        <p>Ebere Stores</p>
+                    </div>
+
+                    <div class="">
+                        <img class="cursor-pointer" src="images/ic_unfold_more.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex w-full justify-between items-center uptwo">
+                <div class="">
+                    <div class="flex">
+                        <p class="h-7 w-5 border-2 border-yellow-600"></p>
+                        <p class="text-xs">Pali.<br>page</p>
+                    </div>
+
+                </div>
+                <div class="flex items-center gap-4 lg:flex hidden">
+                    <img class="cursor-pointer" src="images/ic-notification.png">
+                    <p class="soni">Soni Braide</p>
+                    <p class="df pt-1">DF</p>
+                </div>
+                
+                <span class="text-gray-600 lg:hidden flex" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+
+        </div>
+    </header>
+
+   
+
+
+
+    <section>
+        <div class="flex mt-16">
+            <div class="nav-holder lg:block hidden">
+
+                <h1 class="flex items-center hoverie colorfont pl-4 mb-4 mt-8"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Dashboard</p></h1>
+                <h1 class="flex items-center hoverie pl-4 mb-4"style="padding-top:9px; padding-bottom:8px; background:#FEF2E8;border-radius:4px;font-size:14px; color:#262626;"><img class="pr-4 " src="images/ic-overview.png">Products</p></h1>
+                <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Wallets</p></h1>
+                <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-analytics.png">My Sales</p></h1>
+                <h1 class="flex items-center hoverie colorfont pl-4 mb-4"style="padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-overview.png">Affiliate Sales</p></h1>
+                <h1 class="flex items-center hoverie colorfont pl-4"style="margin-bottom:169px; padding-top:9px; padding-bottom:8px"><img class="pr-4" src="images/ic-settings.png">Settings</p></h1>
+
+                <h1 class="flex items-center cursor-pointer colorfont pl-4 mb-8"style=""><img class="pr-4" src="images/ic-settings.png">Help Center</p></h1>
+                <h1 class="flex items-center cursor-pointer colorfont pl-4"style="margin-bottom:83.44px; "><img class="pr-4" src="images/ic-logout.png">Log out</p></h1>
+
+               <p class="text-xs" style="color:#9599AC">Powered by:</p>
+               <img style="margin-bottom: 243px;" src="images/dumo-logo.png">
+                
+
+            </div>
+
+            <div class="bigger-nav" style="margin-left:24px;">
+
+                <div class="flex w-full justify-between items-center mt-6 uptwo">
+                    <div class="cursor-pointer lg:hidden flex flex items-center"style="width:102px; border-radius:4px; height:26px;background:#EAECED; padding-top:5px padding-bottom-5px;">
+                        <img class="pl-4 pr-2" src="images/ic-settings.png">
+                        <p style="color:#324A50; font-size:12px; font-weight:600;">Go Back</p>
+                    </div>
+                    <div class="flex items-center gap-4 lg:hidden flex">
+                        <img class="cursor-pointer" src="images/ic-notification.png">
+                        <p class="soni">Soni Braide</p>
+                        <p class="df pt-1">DF</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="cursor-pointer lg:flex hidden flex items-center  mt-8"style="width:102px; border-radius:4px; height:26px;background:#EAECED; padding-top:5px padding-bottom-5px;">
+                    <img class="pl-4 pr-2" src="images/ic-settings.png">
+                    <p style="color:#324A50; font-size:12px; font-weight:600;">Go Back</p>
+                </div>
+
+                <p style="color:#2E2E2E; font-size:16px; font-weight:700; margin-top:24px;">Add New Product</p>
+                <p style="font-size: 13px; font-weight: 600; color:#7A809B; margin-top:24px;">Product Name</p>
+                <input type="text" placeholder="Enter your product name" class="focus:outline-none new-prod" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 10px; padding-bottom: 9px; padding-left:16px; border-radius:4px; ">
+
+                <div class="flex md:flex-row flex-col"style="gap:24px">
+
+                    <div>
+                        <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Product Name</p>
+                        <select type="text" class="focus:outline-none" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 7px; padding-bottom: 9px; padding-left:16px; padding-right:5px; border-radius:4px; width:318px; height:40px;">
+                            <option style="font-size:14px;" value="A">Choose Product Category</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Product Type</p>
+                        <select type="text" class="focus:outline-none" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 7px; padding-bottom: 9px; padding-left:16px; padding-right:5px; border-radius:4px; width:318px; height:40px;">
+                            <option style="font-size:14px;" value="A">Select product type</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                
+                <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Product Description</p>
+                <input placeholder="Enter a brief description of your product" type="text-area" class="focus:outline-none brief-desc" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-left:16px; padding-right:5px; border-radius:4px;">
+               
+                <h1 style="border: 1px solid #E7EAF4; margin-top: 32px; "></h1>
+
+                <!--second flex-->
+                <div class="flex md:flex-row flex-col"style="gap:24px">
+
+                    <div>
+                        <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Product Name</p>
+                        <input class="focus:outline-none" placeholder="0.00" type="text" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 7px; padding-bottom: 9px; padding-left:16px; padding-right:5px; border-radius:4px; width:318px; height:40px;">
+                    </div>
+                    
+                    <div>
+                        <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Product Type</p>
+                        <input class="focus:outline-none" placeholder="0.00" type="text" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 7px; padding-bottom: 9px; padding-left:16px; padding-right:5px; border-radius:4px; width:318px; height:40px;">
+                    </div>
+
+                </div>
+            
+                <div>
+                    <p style="font-size:13px; font-weight: 600; color:#7A809B; margin-top:20px;">Quantity Available</p>
+                    <input class="focus:outline-none" placeholder="0" type="text" style="box-shadow: 0px 1px 4px #3F3F4419; margin-top:6px; border:1px solid #DEDEDF; padding-top: 7px; padding-bottom: 9px; padding-left:16px; padding-right:5px; border-radius:4px; width:318px; height:40px;">
+                </div>
+
+                <div class="img-display"style="margin-top:20px;  background: #F6F7F9 0% 0% no-repeat padding-box; border-radius:4px; padding-top:24px; padding-left:24px; padding-bottom:24px;">
+
+                    <p style="letter-spacing: 0.96px;color: #7C8191; font-size: 13px; font-weight: 600;">ADD PRODUCT IMAGE(S)</p>
+                    <div class="flex"style="gap:24px; margin-top:16px;">
+                        <div style="width:124px; height:124px">
+                            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="png pic">
+                        </div>
+
+                        <div style="width:124px; height:124px; background:#E7EAF4">
+                            <img style="padding:51px 47.3px; cursor: pointer;" src="images/ic-upload-profile-image.png" alt="png pic">
+                        </div>
+                    </div>
+                
+                
+                </div>
+
+                <div class="flex justify-between">
+                    <p>.</p>
+                    <button class="firo" style="width:130px; height:40px; margin-top: 33px; margin-bottom: 32px;" class="">Save product</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>
